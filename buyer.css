@@ -1,0 +1,41 @@
+
+body{
+    background: url(plant.jpg);
+}
+.form{
+    
+   
+    display: block;
+    align-content: center;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+   
+    ;
+    
+}
+.Mform{
+    margin-top: 50px;
+    margin-left:250px;
+    margin-right:250px;
+    align-items: center;
+    border-radius: 20px;
+    background-color:thistle;
+    padding: 40px;
+}
+
+.wform
+{
+    width:90%;
+    padding: 5px;
+    border-radius: 8px;   
+}
+
+.Mform input
+{
+    width:90%;
+    padding: 5px;
+    border-radius: 8px;
+}
+input,select{
+    width: 2000px;
+}

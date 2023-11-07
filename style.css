@@ -1,0 +1,124 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.image
+{
+width:100%;
+height: 500px;
+background-image: url(FARMER.jpg);
+background-size: cover;
+background-position:center ;
+font-family: 'Courier New', Courier, monospace;
+}
+.menu-bar
+{
+    background: rgb(13, 133, 13);
+    text-align:center;
+    width: 970px;
+    height:60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.menu-bar ul
+{
+    display:inline-flex;
+    list-style:none;
+    color: #f7f0f0;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin:5px;
+    padding:3px;
+}
+.menu-bar ul li a
+{
+text-decoration:dashed;
+color: ghostwhite;
+}
+.active,.menu-bar ul li:hover
+{
+    background:#d2c6c6;
+    box-sizing: border-box;
+    border-radius: 0%;
+    shape-margin: 0svh;
+    border: 1px;
+}
+
+
+/* .class
+{
+    background-color: aquamarine;
+}
+.form{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+input,select{
+    width:400px;
+} */
+
+/* container */
+.container{
+    width: 100%;
+    position: relative;
+    bottom: 400px;
+    background-color: rgba(63, 62, 57, 0.553);
+
+}
+#about{
+    display:none;
+}
+.about{
+    position: relative;
+    top: 400px;
+    
+
+
+}
+.format{
+    height: 700px;
+    background-color: rgb(253, 255, 252);
+}
+.head{
+    border: 1px rebeccapurple;
+    padding:0;
+    background-color: rgb(39, 143, 55);
+}
+
+.graph1{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    font-style: italic;
+}
+.graph2{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    font-style: italic;
+}
+.graph2 img{
+    margin: 20px;
+}
+p{
+    margin: top 10px;;
+    margin: 20px;
+    padding: 0;
+}
+
+
+.footer{
+    color: rgb(44, 5, 91);
+    text-align: center;
+    position: relative;
+    top: 10rem;
+
+ }
