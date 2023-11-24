@@ -19,4 +19,72 @@
     tr:nth-child(even) {
         background-color: #f2f2f2;
     }
+    .product.box-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap:1.5rem;
+    }
+    .product.box-container .box{
+        flex: 1 1 30rem;
+        box-shadow:0 .5rem 1.5rem green;
+        border-radius:.5rem;
+        border:1rem solid green;
+        position:relative;
+    }
+    .product.box-container .box .discount{
+        position: absolute;
+        top:1rem;left:1rem;
+        padding:7rem 1rem;
+        font-size:2rem;
+        color:violet;
+        background: green;
+        z-index:1;
+        border-radius:5rem;
+    }
+    .product.box-container .box .image{
+        position: relative;
+        text-align: center;
+        padding-top:2rem;
+        overflow: hidden;
+    }
+    .product.box-container .box .image img{
+        height:25rem;
+
+    }
+    .product.box-container .box:hover .image img{
+       transform:scale(1.1);
+        
+    }
+    .product.box-container .box .image .icons{
+        position:absolute;
+        bottom: 0;left:0;right:0;
+        display:flex;
+        
+    }
+    .product.box-container .box .image .icons a{
+        height:5rem;
+        line-height: 5rem;
+        font-size:2rem;
+        width:50%;
+        background: var(violet);
+        color:aliceblue;
+    }
+    .product.box-container .box .image .icons .cart-btn{
+        border-left:1rem solid white;
+        border-right: 1rem solid white;
+        width:100%;
+    }
+    .product.box-container .box .image .icons a:hover{
+        background-color: white;
+    }
+
+        
+
+    
+
+
+
+
+
+    
  
